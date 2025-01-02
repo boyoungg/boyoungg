@@ -113,12 +113,12 @@
 
         <div class="portfolio_box">
             <div id="mymerci_pop"><img src="./img/port13.png" alt=""></div>
-            <div><a href="http://xn--9g3b23j1td13t7ta.com/"><img src="./img/13.png" alt=""></a></div>
-            <div><img src="./img/port1.png" alt=""></div>
-            <div><img src="./img/port2.png" alt=""></div>
-            <div><img src="./img/port3.png" alt=""></div>
-            <div><img src="./img/port5.png" alt=""></div>
-            <div><img src="./img/port11.png" alt=""></div>
+            <div><a href="http://xn--9g3b23j1td13t7ta.com/" target="_blank"><img src="./img/13.png" alt=""></a></div>
+            <div id="camp_pop"><img src="./img/port1.png" alt=""></div>
+            <div><a href="https://www.reviewnote.kr/" target="_blank"><img src="./img/port2.png" alt=""></a></div>
+            <div id="san_pop"><img src="./img/port3.png" alt=""></div>
+            <div><a href="http://aspsajang.com/" target="_blank"><img src="./img/port5.png" alt=""></a></div>
+            <div><a href="https://www.baeksam.com/" target="_blank"><img src="./img/port11.png" alt=""></a></div>
 
         </div>
     </div>
@@ -129,13 +129,10 @@
         </div>
 
         <div class="portfolio_box">
-            <div><img src="./img/13.png" alt=""></div>
-            <div><img src="./img/port1.png" alt=""></div>
-            <div><img src="./img/port2.png" alt=""></div>
-            <div><img src="./img/port3.png" alt=""></div>
-            <div><img src="./img/port5.png" alt=""></div>
-            <div><img src="./img/port10.png" alt=""></div>
-            <div><img src="./img/port11.png" alt=""></div>
+            <div id="design01"><img src="./img/port14.png" alt=""></div>
+            <div id="design01"><img src="./img/port14.png" alt=""></div>
+            <div id="design01"><img src="./img/port14.png" alt=""></div>
+            <div id="design01"><img src="./img/port14.png" alt=""></div>
         </div>
     </div>
 
@@ -148,12 +145,50 @@
         <div class="close">close</div>
     </div>
 
+    <div class="pop" id="camping">
+        <div class="contents">
+            <img src="./img/PC최종.png" alt="">
+        </div>
+        <div class="close">close</div>
+    </div>
+
+    <div class="pop" id="san">
+        <div class="contents">
+            <img src="./img/sanpc.png" alt="">
+        </div>
+        <div class="close">close</div>
+    </div>
+
+
+    <!-- 디자인 -->
+    <div class="pop" id="designpop1">
+        <div class="contents">
+            <img src="./img/design1.png" alt="">
+        </div>
+        <div class="close">close</div>
+    </div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $('#mymerci_pop').click(function(){
             $('#merci').addClass('on');
         })
-        $('.close').click(function(){
+
+        $('#camp_pop').click(function(){
+            $('#camping').addClass('on');
+        })
+
+        $('#san_pop').click(function(){
+            $('#san').addClass('on');
+        })
+
+        $('#design01').click(function(){
+            $('#designpop1').addClass('on');
+        })
+
+
+        $('.close, .pop').click(function(){
             $('.pop').removeClass('on');
         })
     </script>
