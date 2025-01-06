@@ -171,7 +171,7 @@ footer{width: 100%; height: 30px; background-color: #333; text-align: center; fo
 .portfolio_box div:hover img{transform: scale(1.1); transition: .5s;}
 
 #webdesign{padding-top: 100px;}
-#contentsdesign{margin-top: 200px; padding-top: 100px;}
+#contentsdesign{margin-top: 200px; padding: 100px 0;}
 
 .pop{position: fixed; display: none; top: 0; left: 0; overflow-x: hidden; overflow-y: scroll; width: 100vw; height: 100vh; z-index: 100; background: #000000ad;}
 .pop .contents{width: 30vw; padding: 100px 0 30px; margin: 0 auto;}
@@ -195,3 +195,8 @@ footer{width: 100%; height: 30px; background-color: #333; text-align: center; fo
 }
 
 .close{background-color: #fff; width: 50px; margin: 0 auto 100px; cursor: pointer; text-align: center; padding: 15px 20px; border-radius: 99px; color: #000; font-size: 20px;} 
+
+.design_box_wrap{margin-top: 100px;}
+.sub_title_portfolio {padding: 10px 15px; border-bottom: solid 1px #000; display: flex; align-items: center; justify-content: space-between;}
+.sub_title_portfolio h2{font-size: 16px;  text-align: left; font-weight: 400;  }
+.sub_title_portfolio p{font-size: 14px; color: #888; text-align: right;}
